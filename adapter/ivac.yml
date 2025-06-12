@@ -6,13 +6,13 @@ devices:
       port: 5000
       device_xml: ivac.xml
       adapter:
-        ip: 132.203.120.89
+        ip: 10.68.14.100
         port: 7878
 
     supervisor:
       image: ghcr.io/demo-smart-factory-concordia-university/opcua-supervisor
       adapter:
-        ip: 132.203.120.89
+        ip: 10.68.14.100
         port: 4840
         environment:
           - NAMESPACE_URI=demofactory
